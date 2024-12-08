@@ -1,0 +1,71 @@
+/* Styles for the container */
+div {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Button styles */
+button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Edit button */
+button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:first-child:hover {
+  background-color: #45a049;
+}
+
+/* Delete button */
+button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+button:last-child:hover {
+  background-color: #d32f2f;
+}
